@@ -23,6 +23,7 @@
             android:padding="10dp"
             android:text="@{flickr.title}"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            app:image='@{flickr.media.m}'
             tools:text="Test text" />
 
         <ImageView
